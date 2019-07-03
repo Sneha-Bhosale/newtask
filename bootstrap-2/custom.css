@@ -1,0 +1,339 @@
+/* custom css */
+
+body{
+    padding-top: trem;
+}
+
+.starter-template{
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+/*Navbar*/
+
+.bg-dark{
+    background-color: #21ddfb !important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.active{
+        border-bottom: 2px solid #fff;
+}
+
+/* carousel*/
+
+.carousel-caption{
+    padding-bottom: 10%;
+}
+
+.carousel-caption h5{
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 24px;
+    color: lightskyblue;
+}
+
+/* buttons */
+
+.btn-info{
+    background-color: lightskyblue;
+    padding: 1rem 4rem;
+     border: 2px solid transparent;
+    width: 225px;
+}
+
+.btn-info:hover{
+    background-color:transparent;
+    border: 3px solid #21ddfb;
+    color: #21ddfb;
+    
+}
+
+.btn-info:hover{
+    background-color:transparent !important;
+    border: 2px solid #21ddfb !important;
+    color: #21ddfb !important;
+     
+}
+
+/* specials */
+
+.specials{
+    background: #2b2b2b;
+    padding: 50px 20px;
+}
+.specials h3{
+    color: #fff;
+}
+
+.img-responsive{
+    height: 50px;
+    width: 170px;
+    margin-left: 100px;
+}
+
+#team{
+    background-color: #21ddac;
+}
+
+#menu{
+    padding: 50px 10px;
+}
+
+.card{
+    box-shadow: 2px 5px 20px #777;
+}
+
+.modal-content{
+    background: #21ddfb;
+}
+
+.mn{
+    color: #fff;
+}
+
+#plx{
+    background: url(../codekul/images/wine.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.wtitle{
+    padding: 150px 20px;
+}
+
+.wtitle h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#wines{
+    background: #21ddfb;
+    padding: 100px 20px;
+}
+
+.wlt{
+    padding-bottom: 50px;
+}
+
+/* jumbotron */
+
+#jumbo{
+    background: #e9ecef;
+}
+
+/* Overlay */
+
+.ovl{
+    opacity: 0;
+    transition: 1s;
+}
+
+.ovl:hover{
+    opacity: 1;
+    background: rgb(0,0,0,0.5);
+}
+
+/* locations */
+
+#locations{
+    padding: 100px 50px;
+     background: url(../codekul/images/world.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loc img{
+    margin-right: 10px;
+   transition-duration: 1.5s; 
+}
+
+.loc img:hover {
+    transform: scale(2,2);
+    box-shadow: 5px 5px 15px #333;
+    z-index: 1;
+    position: absolute;
+}
+
+/* testimonials */
+
+#testimonials{
+    background: #2b2b2b;
+}
+
+.revs{
+    padding: 100px;
+}
+
+.active{
+    border: none;
+}
+
+.carousel-inner{
+    min-height: 300px;
+}
+
+/* Video section */
+
+#vid{
+    padding: 100px 0px;
+    background: #111;
+}
+
+/* Hiring */
+
+.jumbotron{
+    margin-bottom: 0;
+}
+
+.hir h1{ 
+    text-shadow: 5px 5px 10px #555;
+}
+
+/* Pop Up box */
+
+.pop-box{
+    width: 300px;
+    box-shadow: 5px 10px 25px #555;
+    position: fixed;
+    z-index: 9999;
+    right: -300px;
+    bottom: 0%;
+    transition: 1s ease-in-out;
+    -moz-transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+    -webkit-transition: 0.7s ease-in-out;
+}
+
+.pop{
+    background: #21ddfb;
+    padding-top: 7px;
+    /*padding-left: 7px; */
+    margin-left: -55px;
+   /* margin-top: 20px;*/
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 10px 25px #555; 
+}
+
+.pop img{
+    padding-right: 30px;
+}
+
+.pop-box:hover{
+    right: 0px;
+}
+
+/* Number Counter */
+
+#numbers{
+    background: #21ddfb;
+    padding: 100px 0px;
+}
+
+.numc{
+    background: #fff;
+    height: 150px;
+    width: 150px;
+    padding-top: 50px;
+    border-radius: 50%;
+    color: #21ddfb;
+}
+
+.numc h2{
+    font-size: 40px;
+}
+
+.numd{
+    padding-top: 26px;
+}
+
+.wclb{
+    padding-top: 150px;
+}
+
+/* contact */
+
+#contact{
+    padding: 100px 0px;
+    box-shadow: 5px 10px 25px #555;
+    position: relative;
+    z-index: 22;
+}
+
+.cbtn{
+        margin-top: 50px;
+}
+
+#footer{
+    background: #555;
+    
+}
+.cpt{
+    padding-top: 29px;
+}
+
+.ftaw i {
+    font-size: 50px;
+    padding-top: 16px;
+    color: #21ddfb;
+    padding-right: 10px;
+}
+
+/* back to top */
+
+.btt{
+    display: none;
+    background: #21ddfb8c;
+    width: 50px;
+    position: fixed;
+    right: -5px;
+    bottom: 19px;
+    border-radius: 10px;
+    z-index: 9999;
+    border: 2px solid #FFF;
+}
+
+.btt:hover{
+    background: #21ddfb;
+    box-shadow: 5px 10px 25px #555;
+}
+
+.btt i{
+        color: #ffffff7a;
+    font-size: 40px;
+    padding: 6px;
+}
+
+.btt i:hover{
+    color: #fff;
+}
+
+.hide {
+  opacity: 0;
+}
+.show {
+  opacity: 1;
+    display: block;
+}
+
+
+.ftaw{
+    float: right;
+}
