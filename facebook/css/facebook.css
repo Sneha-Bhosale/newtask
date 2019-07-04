@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    margin-left: 100px;
+    padding-top: 25px;
+    font-size: 50px;
+}
+
+#main{
+    background: linear-gradient(to top,rgb(208,214,243),rgb(255,255,255));
+    height: 620px;
+    padding: 20px 150px;
+
+}
+
+select{
+    width: 65px!important;
+    height: 30px!important;
+    text-align: center;
+}
+
+.btn-success{
+    width: 250px;
+    height: 45px;
+}
+
+.btn-info{
+    padding-right: 5px;
+    padding-top: 2px;
+    height: 30px;
+    width: 100px;
+}
+
+.nav{
+    font-size: 12px;
+}
