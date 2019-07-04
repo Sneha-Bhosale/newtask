@@ -8,6 +8,8 @@ h1{
     margin-left: 100px;
     padding-top: 25px;
     font-size: 50px;
+    margin-top: 17px;
+    
 }
 
 #main{
@@ -29,12 +31,78 @@ select{
 }
 
 .btn-info{
-    padding-right: 5px;
-    padding-top: 2px;
-    height: 30px;
-    width: 100px;
+    height: 28px;
+    line-height: 1;
+    background-color: #4267b2!important;
+    border: 1px solid #29487d!important;
+    width:60px;
+    height: 25px;
+    font-size: 5px;
+    
 }
 
 .nav{
+    font-size: 12px;
+}
+._6wl {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
+._3ma {
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+}
+.mvm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+._58mi {
+    min-width: 194px;
+    padding: 7px 20px;
+    text-align: center;
+}
+._6j {
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: 1px;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important; 
+    box-sizing: border-box;
+}
+    
+.container{
+    font-size: 13px;
+    align-content: center;
+    padding-top: 20px;
+ 
+}
+
+.container a{
+   padding-right: 15px;
+
+}
+
+.container a .lang{
+    padding-top: 10px;
+}
+
+#footer{
+margin-left: 30px;
+}
+
+
+.copy{
+    color: rgb(114, 111, 111);
     font-size: 12px;
 }
